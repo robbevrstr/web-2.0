@@ -1,16 +1,15 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 10px;
+    margin: 0;
     padding: 0;
-    background: #0047AB;
+    background: url(./wallpaper.png) no-repeat center center fixed;
     overflow: hidden;
     position: relative;
-    height: 100vh; /* Ensure full viewport height is used */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    background-size: cover;
 }
 
 .profile-container {
