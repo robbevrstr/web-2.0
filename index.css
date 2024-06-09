@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: url(./wallpaper1.png) no-repeat center center fixed;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     height: 100vh;
     display: flex;
