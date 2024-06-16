@@ -1,9 +1,10 @@
+/* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Lilita One";
     margin: 0;
     padding: 0;
     background: url(./wallpaper1.png) no-repeat center center fixed;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     height: 100vh;
     display: flex;
@@ -12,6 +13,7 @@ body {
     background-size: cover;
 }
 
+/* Profile container styling */
 .profile-container {
     display: flex;
     flex-direction: column;
@@ -23,7 +25,7 @@ body {
     max-width: 700px;
     position: center;
     z-index: 1;
-    max-height: 550px;
+    max-height: 85%;
 }
 
 .profile-pic {
@@ -31,20 +33,19 @@ body {
     width: 300px;
     height: 350px;
     object-fit: cover;
-    border: 3px solid #FFD700;
+    border: 3px solid white;
 }
 
 .profile-name {
     font-size: 2em;
     margin-top: 0.5em;
-    font-weight: bold;
-    color: #FFD700; /* Golden color */
+    color: white; 
     text-align: center;
 }
 
 .profile-title {
     font-size: 1.2em;
-    color: #FFD700;
+    color: white;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -62,7 +63,7 @@ body {
     padding: 1em;
     margin: 0.5em;
     text-decoration: none;
-    color: #FFD700;
+    color: white;
     border-radius: 50px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -74,10 +75,44 @@ body {
 }
 
 .profile-link:hover {
-    box-shadow: 0 4px 8px #FFD700;
+    box-shadow: 0 4px 8px white;
 }
 
 .profile-icon {
     font-size: 1.5em;
-    color: #FFD700;
+    color: white;
+}
+
+/* Navigation bar styling */
+.navbar {
+    position: absolute;
+    right: 0;
+    transform: translateY(-100%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.nav-button {
+    width: 75px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.nav-button:hover {
+    background-color: black;
+    color: white;
 }
