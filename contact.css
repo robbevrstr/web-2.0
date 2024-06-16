@@ -9,6 +9,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: crosshair;
 }
 
 .contact-container {
@@ -53,9 +54,11 @@ a:hover {
     font-size: 16px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    cursor: crosshair;
 }
 
 .back-button:hover {
     background-color:black;
     color: white;
+    cursor: crosshair;
 }
