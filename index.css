@@ -76,6 +76,7 @@ body {
     background-color: black;
     color: white;
     text-decoration: underline;
+    cursor: crosshair;
 }
 
 /* Profile links styling */
@@ -102,6 +103,7 @@ body {
 
 .profile-link:hover {
     box-shadow: 0 4px 8px white;
+    cursor: crosshair;
 }
 
 .profile-icon {
