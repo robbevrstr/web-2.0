@@ -115,4 +115,5 @@ body {
 .nav-button:hover {
     background-color: black;
     color: white;
+    text-decoration: underline;
 }
