@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: url(./wallpaper1.png) no-repeat center center fixed;
-    overflow:visible;
+    overflow: auto;
     position: relative;
     height: 100vh;
     display: flex;
@@ -25,7 +25,6 @@ body {
     max-width: 700px;
     position: center;
     z-index: 1;
-    max-height: 85%;
 }
 
 .profile-pic {
@@ -116,4 +115,15 @@ body {
     background-color: black;
     color: white;
     text-decoration: underline;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
