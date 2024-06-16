@@ -9,6 +9,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: crosshair;
 }
 
 .about-container {
@@ -44,6 +45,7 @@ p {
     font-size: 16px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    cursor: crosshair;
 }
 
 .back-button:hover {
