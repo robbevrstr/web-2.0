@@ -1,0 +1,61 @@
+/* General styles */
+body, html {
+    font-family: "Lilita One";
+    margin: 0;
+    padding: 0;
+    background: url(./wallpaper1.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color:black;
+    color: white;
+}
