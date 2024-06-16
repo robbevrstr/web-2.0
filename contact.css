@@ -61,4 +61,5 @@ a:hover {
     background-color:black;
     color: white;
     cursor: crosshair;
+    text-decoration: underline;
 }
